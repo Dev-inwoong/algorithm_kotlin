@@ -1,4 +1,4 @@
-package pgs_의상
+package hash.pgs_의상
 
 fun main(){
     var clothes = arrayListOf(

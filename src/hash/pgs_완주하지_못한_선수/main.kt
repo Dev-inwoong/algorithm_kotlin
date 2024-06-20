@@ -1,4 +1,4 @@
-package pgs_완주하지_못한_선수
+package hash.pgs_완주하지_못한_선수
 
 fun main(){
     var participant = arrayListOf(

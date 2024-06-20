@@ -1,4 +1,4 @@
-package pgs_폰켓몬
+package hash.pgs_폰켓몬
 
 fun main(){
     var nums = intArrayOf(3, 3, 3, 2, 2, 2)

@@ -1,4 +1,4 @@
-package pgs_전화번호_목록
+package hash.pgs_전화번호_목록
 
 fun main(){
     var phone_book = arrayOf(

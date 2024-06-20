@@ -1,4 +1,4 @@
-package pgs_베스트앨범
+package hash.pgs_베스트앨범
 
 fun main(){
     var genres = arrayOf(
