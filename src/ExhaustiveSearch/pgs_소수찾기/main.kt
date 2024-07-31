@@ -53,12 +53,11 @@ fun <T> permutations(list: List<T>, length: Int): List<List<T>> {
             generate(depth + 1) // 다음 깊이(순열 다음 자리) 작업 시작
             used[i] = false // 재귀 호출이 끝나 해당 인덱스를 사용하지 않음으로 표시
             println("before : $current")
-            current.removeAt(current.size - 1) //
+            current.removeAt(current.size - 1) // 백트래킹 -> 배열에서 제거하여 다른 조합을 시도 할 수 있음
             println("after : $current")
         }
         println()
     }
-
     generate(0)
     return result
 }
